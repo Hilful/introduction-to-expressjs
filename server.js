@@ -14,6 +14,9 @@ app.get('/contact' , (req , res)=>{
 app.get('/about' , (req , res)=>{
         res.send("Hi, I am Ashabul Elaph Hilful.I am a very passionate web application developer who is currently chasing his dream"); 
 })
+app.get('/hobbies' , (req , res)=>{
+        res.send("<ul><li>coffee</li><li>code</li><li>reading</li></ul>"); 
+})
 
 app.listen(3000 , ()=>{
     console.log("Server Started on port : 3000");
